@@ -1,398 +1,398 @@
 {
- "_说明": "真实项目示例：旧棉袄里的拆迁款。cues 用 [分镜序号, 情绪, 剧情小段说明]，情绪必须是 bgm.library 里有的键。详细说明见 SKILL.md 与 references/。",
- "project": "旧棉袄里的拆迁款",
- "draftRoot": "D:/JianyingPro Drafts",
- "sourceDraft": "旧棉袄里的拆迁款",
- "outputDraft": "旧棉袄里的拆迁款_漫剧版",
- "ziziProject": "D:/字字动画_8_0_25/工作目录/默认/all_episode_inference_results_fast_import_20260919_203940",
- "font": {
-  "id": "6740435892441190919",
-  "path": "D:/JianyingPro/5.9.0.11632/Resources/Font/新青年体.ttf"
- },
- "style": {
-  "subtitle": {
-   "size": 6,
-   "y": -0.8,
-   "color": [
-    1,
-    0.8705882430076599,
-    0
-   ],
-   "strokeWidth": 0.07999999821186066,
-   "strokeColor": [
-    0,
-    0,
-    0
-   ],
-   "renderIndex": 14000,
-   "trackRenderIndex": 1,
-   "minDurationMs": 300
+  "_说明": "真实项目示例：旧棉袄里的拆迁款。cues 用 [分镜序号, 情绪, 剧情小段说明]，情绪必须是 bgm.library 里有的键。详细说明见 SKILL.md 与 references/。",
+  "project": "旧棉袄里的拆迁款",
+  "draftRoot": "<你的剪映草稿根目录，如 D:/JianyingPro Drafts>",
+  "sourceDraft": "旧棉袄里的拆迁款",
+  "outputDraft": "旧棉袄里的拆迁款_漫剧版",
+  "ziziProject": "<字字动画工程目录>",
+  "font": {
+    "id": "6740435892441190919",
+    "path": "<剪映安装目录>/Resources/Font/新青年体.ttf"
   },
-  "intro": {
-   "size": 8,
-   "y": 0.55,
-   "color": [
-    1,
-    1,
-    1
-   ],
-   "bg": true,
-   "bgAlpha": 0.55,
-   "bgColor": "#000000",
-   "bgWidth": 0.56,
-   "bgHeight": 0.16,
-   "durationMs": 3000,
-   "staggerMs": 3300,
-   "leadMs": 400,
-   "renderIndex": 15000,
-   "trackRenderIndex": 2,
-   "skip": [
-    "围观街坊"
-   ]
-  }
- },
- "bgm": {
-  "volume": 0.32,
-  "fadeInMs": 700,
-  "fadeOutMs": 1000,
-  "innerFadeMs": 150,
-  "minCueMs": 20000,
-  "library": {
-   "warm": {
-    "file": "E:/都市恋情和伤感/July-Letter That Writing in the Wind.flac",
-    "durationMs": 243700
-   },
-   "sad": {
-    "file": "E:/都市恋情和伤感/傅许-寂静之空.flac",
-    "durationMs": 270500
-   },
-   "cold": {
-    "file": "E:/都市恋情和伤感/Dehors(纯音乐).m4a",
-    "durationMs": 167100
-   },
-   "drift": {
-    "file": "E:/都市恋情和伤感/Collapsing World【纯音乐】.m4a",
-    "durationMs": 190200
-   },
-   "grief": {
-    "file": "E:/都市恋情和伤感/六少飞-悬溺（0.8x）.mp3",
-    "durationMs": 404900
-   },
-   "tear": {
-    "file": "E:/都市恋情和伤感/DAISHI DANCE&Cécile Corbel-Take Me Hand.mp3",
-    "durationMs": 260000
-   },
-   "sob": {
-    "file": "E:/都市恋情和伤感/MayPiano-Illusionary Daytime(钢琴版).flac",
-    "durationMs": 144000
-   },
-   "punch": {
-    "file": "E:/都市恋情和伤感/你不是真正的快乐 (伴奏).m4a",
-    "durationMs": 349600
-   },
-   "light": {
-    "file": "E:/都市恋情和伤感/ROOK1E&J'san-pure imagination.flac",
-    "durationMs": 104600
-   },
-   "hope": {
-    "file": "E:/都市恋情和伤感/Relaxing Music - Walking On Sunshine.mp3",
-    "durationMs": 315000
-   },
-   "peace": {
-    "file": "E:/都市恋情和伤感/Candy_Wind-青空.flac",
-    "durationMs": 201400
-   }
+  "style": {
+    "subtitle": {
+      "size": 6,
+      "y": -0.8,
+      "color": [
+        1,
+        0.8705882430076599,
+        0
+      ],
+      "strokeWidth": 0.07999999821186066,
+      "strokeColor": [
+        0,
+        0,
+        0
+      ],
+      "renderIndex": 14000,
+      "trackRenderIndex": 1,
+      "minDurationMs": 300
+    },
+    "intro": {
+      "size": 8,
+      "y": 0.55,
+      "color": [
+        1,
+        1,
+        1
+      ],
+      "bg": true,
+      "bgAlpha": 0.55,
+      "bgColor": "#000000",
+      "bgWidth": 0.56,
+      "bgHeight": 0.16,
+      "durationMs": 3000,
+      "staggerMs": 3300,
+      "leadMs": 400,
+      "renderIndex": 15000,
+      "trackRenderIndex": 2,
+      "skip": [
+        "围观街坊"
+      ]
+    }
   },
-  "cues": [
-   [
-    1,
-    "warm",
-    "第一集 祭拜亡妻·清点旧物"
-   ],
-   [
-    4,
-    "sad",
-    "锁院门·与老郑头告别"
-   ],
-   [
-    7,
-    "cold",
-    "第二集 电梯楼·杂物间"
-   ],
-   [
-    12,
-    "sad",
-    "换拖鞋·被立规矩"
-   ],
-   [
-    17,
-    "sad",
-    "第三集 倒贴钱的免费老妈子"
-   ],
-   [
-    23,
-    "cold",
-    "被当保姆使唤"
-   ],
-   [
-    29,
-    "cold",
-    "第四集 生日饭桌上的算计"
-   ],
-   [
-    34,
-    "sad",
-    "寒心"
-   ],
-   [
-    38,
-    "sad",
-    "第五集 二儿子家踢皮球"
-   ],
-   [
-    44,
-    "drift",
-    "推诿·无处可去"
-   ],
-   [
-    48,
-    "grief",
-    "第六集 被冤枉成贼·雨夜出走"
-   ],
-   [
-    54,
-    "drift",
-    "雨夜街头"
-   ],
-   [
-    59,
-    "drift",
-    "第七集 车站长椅上的漫漫长夜"
-   ],
-   [
-    62,
-    "sad",
-    "长夜难熬"
-   ],
-   [
-    65,
-    "warm",
-    "第八集 他们不养爹我养"
-   ],
-   [
-    71,
-    "peace",
-    "面馆温情"
-   ],
-   [
-    74,
-    "warm",
-    "第九集 一沓汇款单·一个穷孩子"
-   ],
-   [
-    79,
-    "sad",
-    "愧疚建梅"
-   ],
-   [
-    84,
-    "light",
-    "第十集 恩人上电视"
-   ],
-   [
-    87,
-    "sad",
-    "他却不肯认"
-   ],
-   [
-    89,
-    "tear",
-    "第十一集 偷偷拨通寻亲热线"
-   ],
-   [
-    93,
-    "peace",
-    "期盼"
-   ],
-   [
-    95,
-    "tear",
-    "第十三集 面馆认亲·门口跪倒一人"
-   ],
-   [
-    101,
-    "tear",
-    "跪谢"
-   ],
-   [
-    104,
-    "tear",
-    "第十四集 当街一跪·找了三十年"
-   ],
-   [
-    110,
-    "warm",
-    "第十五集 旧军功章"
-   ],
-   [
-    115,
-    "tear",
-    "敬仰"
-   ],
-   [
-    117,
-    "warm",
-    "第十六集 叔，往后我就是你亲儿"
-   ],
-   [
-    124,
-    "warm",
-    "认义子"
-   ],
-   [
-    128,
-    "punch",
-    "第十七集 不信邪的儿子看傻了眼"
-   ],
-   [
-    133,
-    "punch",
-    "反转"
-   ],
-   [
-    135,
-    "light",
-    "第十八集 争着尽孝·争的是好处"
-   ],
-   [
-    141,
-    "cold",
-    "虚伪"
-   ],
-   [
-    145,
-    "sob",
-    "第十九集 病床前·照出真假孝心"
-   ],
-   [
-    150,
-    "tear",
-    "真假孝心"
-   ],
-   [
-    153,
-    "grief",
-    "第二十集 当众拆开那件旧棉袄"
-   ],
-   [
-    161,
-    "tear",
-    "六十万现形"
-   ],
-   [
-    168,
-    "sob",
-    "第二十一集 老伴留下的一封信"
-   ],
-   [
-    175,
-    "sob",
-    "读信·泪崩"
-   ],
-   [
-    179,
-    "sob",
-    "第二十二集 跪地痛哭·要立规矩"
-   ],
-   [
-    183,
-    "punch",
-    "立规矩"
-   ],
-   [
-    184,
-    "punch",
-    "第二十三集 六十万·当众这么分"
-   ],
-   [
-    191,
-    "punch",
-    "分钱·扬眉吐气"
-   ],
-   [
-    196,
-    "warm",
-    "分给该分的人"
-   ],
-   [
-    200,
-    "punch",
-    "第二十四集 自己种的苦果自己尝"
-   ],
-   [
-    205,
-    "light",
-    "苦果"
-   ],
-   [
-    208,
-    "peace",
-    "第二十五集 孙子一句话·惊醒俩儿子"
-   ],
-   [
-    211,
-    "peace",
-    "第二十六集 这一次·他们不提钱"
-   ],
-   [
-    218,
-    "warm",
-    "缓和"
-   ],
-   [
-    224,
-    "warm",
-    "第二十七集 爹的话·比钱金贵"
-   ],
-   [
-    232,
-    "tear",
-    "触动"
-   ],
-   [
-    238,
-    "hope",
-    "第二十八集 德福食堂·老有所尊"
-   ],
-   [
-    243,
-    "hope",
-    "食堂开张"
-   ],
-   [
-    247,
-    "hope",
-    "第二十九集 好人·终有好报"
-   ],
-   [
-    253,
-    "hope",
-    "第三十集 人这一辈子，攒的是人心（大结局）"
-   ],
-   [
-    260,
-    "hope",
-    "大结局·团圆"
-   ]
-  ]
- },
- "trackNames": {
-  "subtitle": "字幕",
-  "intro": "人物出场介绍",
-  "bgm": "配乐"
- },
- "copySkip": [
-  ".backup"
- ],
- "register": true
+  "bgm": {
+    "volume": 0.32,
+    "fadeInMs": 700,
+    "fadeOutMs": 1000,
+    "innerFadeMs": 150,
+    "minCueMs": 20000,
+    "library": {
+      "warm": {
+        "file": "<你的曲库目录>/July-Letter That Writing in the Wind.flac",
+        "durationMs": 243700
+      },
+      "sad": {
+        "file": "<你的曲库目录>/傅许-寂静之空.flac",
+        "durationMs": 270500
+      },
+      "cold": {
+        "file": "<你的曲库目录>/Dehors(纯音乐).m4a",
+        "durationMs": 167100
+      },
+      "drift": {
+        "file": "<你的曲库目录>/Collapsing World【纯音乐】.m4a",
+        "durationMs": 190200
+      },
+      "grief": {
+        "file": "<你的曲库目录>/六少飞-悬溺（0.8x）.mp3",
+        "durationMs": 404900
+      },
+      "tear": {
+        "file": "<你的曲库目录>/DAISHI DANCE&Cécile Corbel-Take Me Hand.mp3",
+        "durationMs": 260000
+      },
+      "sob": {
+        "file": "<你的曲库目录>/MayPiano-Illusionary Daytime(钢琴版).flac",
+        "durationMs": 144000
+      },
+      "punch": {
+        "file": "<你的曲库目录>/你不是真正的快乐 (伴奏).m4a",
+        "durationMs": 349600
+      },
+      "light": {
+        "file": "<你的曲库目录>/ROOK1E&J'san-pure imagination.flac",
+        "durationMs": 104600
+      },
+      "hope": {
+        "file": "<你的曲库目录>/Relaxing Music - Walking On Sunshine.mp3",
+        "durationMs": 315000
+      },
+      "peace": {
+        "file": "<你的曲库目录>/Candy_Wind-青空.flac",
+        "durationMs": 201400
+      }
+    },
+    "cues": [
+      [
+        1,
+        "warm",
+        "第一集 祭拜亡妻·清点旧物"
+      ],
+      [
+        4,
+        "sad",
+        "锁院门·与老郑头告别"
+      ],
+      [
+        7,
+        "cold",
+        "第二集 电梯楼·杂物间"
+      ],
+      [
+        12,
+        "sad",
+        "换拖鞋·被立规矩"
+      ],
+      [
+        17,
+        "sad",
+        "第三集 倒贴钱的免费老妈子"
+      ],
+      [
+        23,
+        "cold",
+        "被当保姆使唤"
+      ],
+      [
+        29,
+        "cold",
+        "第四集 生日饭桌上的算计"
+      ],
+      [
+        34,
+        "sad",
+        "寒心"
+      ],
+      [
+        38,
+        "sad",
+        "第五集 二儿子家踢皮球"
+      ],
+      [
+        44,
+        "drift",
+        "推诿·无处可去"
+      ],
+      [
+        48,
+        "grief",
+        "第六集 被冤枉成贼·雨夜出走"
+      ],
+      [
+        54,
+        "drift",
+        "雨夜街头"
+      ],
+      [
+        59,
+        "drift",
+        "第七集 车站长椅上的漫漫长夜"
+      ],
+      [
+        62,
+        "sad",
+        "长夜难熬"
+      ],
+      [
+        65,
+        "warm",
+        "第八集 他们不养爹我养"
+      ],
+      [
+        71,
+        "peace",
+        "面馆温情"
+      ],
+      [
+        74,
+        "warm",
+        "第九集 一沓汇款单·一个穷孩子"
+      ],
+      [
+        79,
+        "sad",
+        "愧疚建梅"
+      ],
+      [
+        84,
+        "light",
+        "第十集 恩人上电视"
+      ],
+      [
+        87,
+        "sad",
+        "他却不肯认"
+      ],
+      [
+        89,
+        "tear",
+        "第十一集 偷偷拨通寻亲热线"
+      ],
+      [
+        93,
+        "peace",
+        "期盼"
+      ],
+      [
+        95,
+        "tear",
+        "第十三集 面馆认亲·门口跪倒一人"
+      ],
+      [
+        101,
+        "tear",
+        "跪谢"
+      ],
+      [
+        104,
+        "tear",
+        "第十四集 当街一跪·找了三十年"
+      ],
+      [
+        110,
+        "warm",
+        "第十五集 旧军功章"
+      ],
+      [
+        115,
+        "tear",
+        "敬仰"
+      ],
+      [
+        117,
+        "warm",
+        "第十六集 叔，往后我就是你亲儿"
+      ],
+      [
+        124,
+        "warm",
+        "认义子"
+      ],
+      [
+        128,
+        "punch",
+        "第十七集 不信邪的儿子看傻了眼"
+      ],
+      [
+        133,
+        "punch",
+        "反转"
+      ],
+      [
+        135,
+        "light",
+        "第十八集 争着尽孝·争的是好处"
+      ],
+      [
+        141,
+        "cold",
+        "虚伪"
+      ],
+      [
+        145,
+        "sob",
+        "第十九集 病床前·照出真假孝心"
+      ],
+      [
+        150,
+        "tear",
+        "真假孝心"
+      ],
+      [
+        153,
+        "grief",
+        "第二十集 当众拆开那件旧棉袄"
+      ],
+      [
+        161,
+        "tear",
+        "六十万现形"
+      ],
+      [
+        168,
+        "sob",
+        "第二十一集 老伴留下的一封信"
+      ],
+      [
+        175,
+        "sob",
+        "读信·泪崩"
+      ],
+      [
+        179,
+        "sob",
+        "第二十二集 跪地痛哭·要立规矩"
+      ],
+      [
+        183,
+        "punch",
+        "立规矩"
+      ],
+      [
+        184,
+        "punch",
+        "第二十三集 六十万·当众这么分"
+      ],
+      [
+        191,
+        "punch",
+        "分钱·扬眉吐气"
+      ],
+      [
+        196,
+        "warm",
+        "分给该分的人"
+      ],
+      [
+        200,
+        "punch",
+        "第二十四集 自己种的苦果自己尝"
+      ],
+      [
+        205,
+        "light",
+        "苦果"
+      ],
+      [
+        208,
+        "peace",
+        "第二十五集 孙子一句话·惊醒俩儿子"
+      ],
+      [
+        211,
+        "peace",
+        "第二十六集 这一次·他们不提钱"
+      ],
+      [
+        218,
+        "warm",
+        "缓和"
+      ],
+      [
+        224,
+        "warm",
+        "第二十七集 爹的话·比钱金贵"
+      ],
+      [
+        232,
+        "tear",
+        "触动"
+      ],
+      [
+        238,
+        "hope",
+        "第二十八集 德福食堂·老有所尊"
+      ],
+      [
+        243,
+        "hope",
+        "食堂开张"
+      ],
+      [
+        247,
+        "hope",
+        "第二十九集 好人·终有好报"
+      ],
+      [
+        253,
+        "hope",
+        "第三十集 人这一辈子，攒的是人心（大结局）"
+      ],
+      [
+        260,
+        "hope",
+        "大结局·团圆"
+      ]
+    ]
+  },
+  "trackNames": {
+    "subtitle": "字幕",
+    "intro": "人物出场介绍",
+    "bgm": "配乐"
+  },
+  "copySkip": [
+    ".backup"
+  ],
+  "register": true
 }
