@@ -94,14 +94,14 @@
   "combo_info": {
    "text_templates": []
   },
-  "content": "{\"styles\":[{\"fill\":{\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha\":1.0,\"color\":[1.0,0.8705882430076599,0.0]}}},\"font\":{\"id\":\"6740435892441190919\",\"path\":\"D:/JianyingPro/5.9.0.11632/Resources/Font/新青年体.ttf\"},\"range\":[0,13],\"size\":6,\"strokes\":[{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha\":1.0,\"color\":[0.0,0.0,0.0]}},\"width\":0.07999999821186066}],\"useLetterColor\":true}],\"text\":\"过年我和老伴做了一大桌子菜\"}",
+  "content": "{\"styles\":[{\"fill\":{\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha\":1.0,\"color\":[1.0,0.8705882430076599,0.0]}}},\"font\":{\"id\":\"6740435892441190919\",\"path\":\"<剪映安装目录>/Resources/Font/新青年体.ttf\"},\"range\":[0,13],\"size\":6,\"strokes\":[{\"alpha\":1.0,\"content\":{\"render_type\":\"solid\",\"solid\":{\"alpha\":1.0,\"color\":[0.0,0.0,0.0]}},\"width\":0.07999999821186066}],\"useLetterColor\":true}],\"text\":\"过年我和老伴做了一大桌子菜\"}",
   "fixed_height": -1,
   "fixed_width": -1,
   "font_category_id": "",
   "font_category_name": "",
   "font_id": "",
   "font_name": "",
-  "font_path": "D:/JianyingPro/5.9.0.11632/Resources/Font/新青年体.ttf",
+  "font_path": "<剪映安装目录>/Resources/Font/新青年体.ttf",
   "font_resource_id": "6740435892441190919",
   "font_size": 6,
   "font_source_platform": 0,
@@ -115,7 +115,7 @@
     "effect_id": "6740435892441190919",
     "file_uri": "",
     "id": "0526381A-F294-4fe5-B1D6-8068C2BEA45C",
-    "path": "D:/JianyingPro/5.9.0.11632/Resources/Font/新青年体.ttf",
+    "path": "<剪映安装目录>/Resources/Font/新青年体.ttf",
     "request_id": "",
     "resource_id": "6740435892441190919",
     "source_platform": 0,
@@ -256,8 +256,8 @@
   "is_ugc": false,
   "local_material_id": "",
   "music_id": "d1d787d8-db67-4b36-862c-3561b4b146da",
-  "name": "E:\\漫剧\\晚晚非宝\\晚晚非宝.mp3",
-  "path": "E:\\漫剧\\晚晚非宝\\晚晚非宝.mp3",
+  "name": "<你的示例音频>.mp3",
+  "path": "<你的示例音频>.mp3",
   "query": "",
   "request_id": "",
   "resource_id": "",
@@ -335,6 +335,6 @@
  ],
  "font": {
   "id": "6740435892441190919",
-  "path": "D:/JianyingPro/5.9.0.11632/Resources/Font/新青年体.ttf"
+  "path": "<剪映安装目录>/Resources/Font/新青年体.ttf"
  }
 }

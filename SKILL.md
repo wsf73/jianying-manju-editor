@@ -123,7 +123,7 @@ node scripts/asr-align.js --plan plan.json --asr 输出_ASR原始.json \
 ```
 
 **运行环境（本机实测可用）**：本机 torch/funasr 的原生扩展是 cp310，只有
-`C:\Users\Administrator\Desktop\AsrTools-v1.0.1\runtime\python.exe` 能加载；
+`<嵌入式 python310 路径>` 能加载；
 `D:\baishi\site-packages` 提供 torch 2.5.1+cu118 / funasr 1.1.18，
 模型在 `D:\baishi\models\modelscope_cache\hub\iic`（seaco-paraformer-large + fsmn-vad）。
 该运行时被裁剪过、缺 `_overlapped.pyd`，`asr-run.py` 会自动写个桩顶上去。
